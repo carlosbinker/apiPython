@@ -1,0 +1,1 @@
+# Entorno de virtualización Python
