@@ -12,7 +12,14 @@ Luego ejecutar **cd** <nombre_de_la_carpeta_de_destino>. Esta carpeta será la r
 
 ## 2. Creación del entorno virtual
 
-Supongamos que el nombre que le damos al entorno virtual es **cisco**, entonces se creará una carpeta **cisco** con todas las librerías y dependencias necesarias paea nuestro proyecto. Para activar el entorno escribimos **source cisco/bin/activate**, en la carpeta raíz del proyecto. El nombre del entorno virtual aparecerá entre paréntesis ().
+Supongamos que el nombre que le damos al entorno virtual es **cisco**, entonces se creará una carpeta **cisco** con todas las librerías y dependencias necesarias paea nuestro proyecto. 
+
+La manera de realizarlo es la siguiente:
+
+# python3 -m venv <nombre_del_entorno>
+Ejemplo: python3 -m venv cisco
+
+Para activar el entorno escribimos **source cisco/bin/activate**, en la carpeta raíz del proyecto. El nombre del entorno virtual aparecerá entre paréntesis ().
 
 ## 3. Instalación de las dependencias, en este caso las librerías requests y tabulate
 
